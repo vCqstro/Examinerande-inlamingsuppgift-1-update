@@ -1,0 +1,33 @@
+body {
+    background-color: #2A2E30;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container {
+    background-color: #555859;
+    border-radius: 6px;
+    width: 139px;
+    height: auto;
+    margin: 0.5rem 0.5rem 0.4rem 0.5rem;
+    padding: 1rem;
+}
+
+.container h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888A8A;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+#canvas {
+    display: flex;
+    margin: auto;
+}

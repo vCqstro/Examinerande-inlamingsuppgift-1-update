@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #2a2e30;
+}
+
+h1 {
+    margin: 1rem 0;
+}
+
+h1,
+h3 {
+    text-align: center;
+    color: #999B9B;
+}
+
+section {
+    width: auto;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form__input {
+    margin: 0.7rem 0;
+    outline: none;
+    border: 1px solid #999B9B;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 0.5rem;
+    color: #999B9B;
+    font-size: 1rem;
+}
+
+#create-button {
+    background-color: transparent;
+    padding: 0.75rem;
+    margin: 1rem 0;
+    color: #999B9B;
+    border: 1px solid #999B9B;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 250ms;
+}
+
+#create-button:hover {
+    background-color: #999B9B;
+    color: #2a2e30;
+}
+
+input {
+    width: 16rem;
+}
+
+#create-account {
+    border-bottom: 0.5px solid gray;
+}
+
+#login-button {
+    background-color: transparent;
+    padding: 0.75rem;
+    margin: 1rem 0;
+    color: #999B9B;
+    border: 1px solid #999B9B;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 250ms;
+}
+
+#login-button:hover {
+    background-color: #999B9B;
+    color: #2a2e30;
+}
